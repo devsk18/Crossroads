@@ -1,0 +1,69 @@
+.title{
+    color:white;
+    
+}
+
+.titler{
+    color:black;
+    background-color: red;
+    font-weight: 700;
+}
+body{
+    background-image:url(black-coffee-cup-and-black-notepad-on-black-table-3815759.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+.info{
+    text-align: left;
+    color:white;
+}
+#fr{
+    margin-top: 30%;
+}
+
+.logo{
+    text-align: right;
+    color: white;
+}
+
+.nv li a{
+    color:white !important;
+}
+html {
+	scroll-behavior: smooth;
+}
+.carousel-item{
+    height: 35em;
+} 
+.carousel-item img{
+    height: 35em;
+}
+#messages{
+    width: 100%;
+    background: transparent;
+}
+.cont{
+    background: transparent !important;
+}
+.contb{
+    background: red !important;
+}
+.card{
+    width: 250px;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin: 0 auto;
+}
+.social{
+    color:blue; 
+    font-size: 2em;
+    letter-spacing: 1em;
+}
+.foot{
+    background-color: grey;
+}
+.foot a{
+    color:red;
+}
