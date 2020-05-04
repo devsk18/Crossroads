@@ -9,10 +9,8 @@ body{
     height: 100%;
 }
 
-.title{
-    color:white;
-    
-}
+
+
 
 .titler{
     color:black;
@@ -28,12 +26,13 @@ body{
 .nv :active,.nv :hover{
     background-color: red;
 }
-nav{
-    background: rgba(0, 0, 0, 0.6);
+#nav{
+    background: rgba(0, 0, 0, 0.6) !important;
 }
 #langingpage{
     margin-top: 20%;
 }
+
 
 #landingpage-row1{
    text-align: right;
@@ -59,8 +58,8 @@ nav{
     font-size: 2em;
     letter-spacing: 1em;
 }
-.social :hover{
-    font-size: 2.01em;
+.social .an :hover{
+    border: 1 solid red;
 }
 .foot a{
     color:red;
