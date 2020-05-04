@@ -1,3 +1,14 @@
+html {
+	scroll-behavior: smooth;
+}
+body{
+    background-image:url(black-coffee-cup-and-black-notepad-on-black-table-3815759.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
 .title{
     color:white;
     
@@ -8,38 +19,30 @@
     background-color: red;
     font-weight: 700;
 }
-body{
-    background-image:url(black-coffee-cup-and-black-notepad-on-black-table-3815759.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100%;
+.nav-bar.hide{
+    transform: translateY(-100%);
 }
-.info{
-    text-align: left;
-    color:white;
-}
-#fr{
-    margin-top: 30%;
-}
-
-.logo{
-    text-align: right;
-    color: white;
-}
-
 .nv li a{
     color:white !important;
 }
-html {
-	scroll-behavior: smooth;
+.nv :active,.nv :hover{
+    background-color: red;
 }
-.carousel-item{
-    height: 35em;
-} 
-.carousel-item img{
-    height: 35em;
+nav{
+    background: rgba(0, 0, 0, 0.6);
 }
+#langingpage{
+    margin-top: 20%;
+}
+
+#landingpage-row1{
+   text-align: right;
+}
+
+#landingpage-row2{
+    text-align: left;
+}
+
 #messages{
     width: 100%;
     background: transparent;
@@ -50,19 +53,14 @@ html {
 .contb{
     background: red !important;
 }
-.card{
-    width: 250px;
-    margin-left: 2em;
-    margin-top: 2em;
-    margin: 0 auto;
-}
+
 .social{
     color:blue; 
     font-size: 2em;
     letter-spacing: 1em;
 }
-.foot{
-    background-color: grey;
+.social :hover{
+    font-size: 2.01em;
 }
 .foot a{
     color:red;
